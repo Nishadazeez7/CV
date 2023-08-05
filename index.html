@@ -1,88 +1,185 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Nishad's Personal Site</title>
-
-<link rel="stylesheet" href="css/styles.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NISHAD - GIS Specialist</title>
+    <style>
+        body {
+            font-family: Times New Roman, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+	    text-align: justify;
+        }
+        .resume-container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #007BFF;
+            font-size: 36px;
+            margin: 0;
+        }
+        h2 {
+            color: #333;
+        }
+        .contact-info {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .contact-info a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .accomplishments ul, .skills-list {
+            list-style: none;
+            padding: 0;
+        }
+        .accomplishments li::before, .skills-list li::before {
+            content: "\2022"; /* Bullet point */
+            padding-right: 8px;
+        }
+        .profile-image {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin: 0 auto;
+            display: block;
+            object-fit: cover;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
 </head>
-
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="latest.jpg" alt="Nishad Azeez's profile picture"></td>
-      <td><h1>Nishad</h1>
-      <p><em>Web Developer and Python Programmer.</em></p>
-      <p>Nishad is basically a <strong>Geologist</strong>. <br>He is also a <strong>GIS
-          Technician</strong>, who lives in <strong>Kerala</strong>, <strong>India
-        </strong>.</p></td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li><strong>M.Sc Applied Geology</strong> from <strong><a href="https://www.amu.ac.in/">Aligarh Muslim
-        University</a></strong>.</li>
-    <li><strong>B.Sc Geology</strong> from <strong><a href="https://mesponnanicollege.ac.in/">M.E.S Ponnani
-        College</a></strong></li>
-    <li><strong>+2</strong> from <strong><a href="https://chennamangallurhss.com/">Chennamangalkur HSS,
-        Chennamangalkur</a></strong></li>
-  </ul>
-  <hr>
-  <h3>Work Experience</h3>
-  <table>
-    <thead>
-      <th>Institude</th>
-      <th>Work</th>
-      <th>From</th>
-      <th>To</th>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Kerala State Landuse Board</td>
-        <td>GIS Technician</td>
-        <td>Dec 2021</td>
-        <td>Mar 2022</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h3>Skills</h3>
-<table cellspacing="10">
-  <tr>
-    <td>
-      <table>
-        <tr>
-          <td>Python</td>
-          <td>💗💗💗💗💗</td>
-        </tr>
-        <tr>
-          <td>CSS</td>
-          <td>💗💗</td>
-        </tr>
-      </table>
-    </td>
-    <td>
-      <table>
-        <tr>
-          <td>HTML</td>
-          <td>💗💗💗💗</td>
-        </tr>
-        <tr>
-          <td>MySQL</td>
-          <td>💗</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
+    <div class="resume-container">
+        <header>
+            <h1>NISHAD</h1>
+            <img class="profile-image" src="https://media.licdn.com/dms/image/D5603AQHea5OCl3qwWA/profile-displayphoto-shrink_200_200/0/1688711072336?e=1696464000&v=beta&t=PfOdOHlJ3T948_1A3apRGWM3yl6zFJcMYzyPOxhgajc" alt="Profile Picture">
+            <div class="contact-info">
+                Email: <a href="mailto:nishadazeez7@gmail.com"> nishadazeez7@gmail.com</a> | Phone: <a href="+919846998853"> +919846998853</a> | Location: Kozhikode, Kerala, INDIA<br>
+                LinkedIn: <a href="https://www.linkedin.com/in/nishad07" target="_blank">linkedin.com/in/nishad07</a> | Portfolio: <a href="https://nishadazeez7.github.io/website/" target="_blank">nishadazeez7.github.io/website/</a>
+            </div>
+        </header>
 
-  <hr>
-  <a href="hobbies.html">Hobbies</a>
-  <br>
-  <a href="contact.html">Contact Me</a>
+        <div class="section">
+    <h2>PROFESSIONAL EXPERIENCE</h2>
+    <div class="experience">
+        <strong>GIS Specialist and Developer | Wipro Ltd.</strong><br>
+        June 2022 - Present<br>
+        <ul>
+            <li>Led a high-performing team of 8 GIS professionals, serving as the primary point of contact (POC) for spatial data analysis and mapping projects; achieved a 15% increase in project completion rate and increased the quality of production to 100%.</li>
+            <li>Successfully managed and trained a high-performing team of 80 professionals, fostering a collaborative and results-driven environment that achieved outstanding project success.</li>
+            <li>Awarded Best Editor 2022 for exceptional contributions to the editing field, demonstrating unparalleled attention to detail and superior editing skills.</li>
+            <li>Utilized advanced mapping tools (Ubermap, OSM, Mapillary, TomTom) to meticulously ensure the accuracy, completeness, and integrity of spatial data.</li>
+            <li>Proactively identified and resolved complex mapping issues by raising tickets on Jira and MSR, swiftly implementing effective solutions to optimize operational efficiency.</li>
+            <li>Conducted in-depth data analysis statistically to identify patterns, trends, and insights, enabling informed decision-making and improving overall data quality using Google Sheets and MS Excel, mainly by Pivot tables.</li>
+            <li>Streamlined team communication and collaboration through proficient use of Slack, facilitating seamless knowledge sharing and enhancing project coordination.</li>
+            <li>Showcased an exceptional eye for detail and deep understanding of mapping software, consistently delivering flawless digitized maps that met stringent quality standards.</li>
+            <li>Leveraged GIS data for emergency management, ensuring the timely and efficient response to critical defects and situations and enhancing emergency preparedness.</li>
+            <li>Thrived under pressure, consistently delivering timely and innovative solutions that exceeded stakeholder expectations and garnered high satisfaction.</li>
+            <li>Cultivated strong analytical and problem-solving skills through hands-on experience in complex GIS projects, employing cutting-edge techniques to overcome challenges.</li>
+        </ul>
+
+        <ol>
+          <li><strong>Project Management Tools:</strong> Jira, MSR, Slack, Bliss</li>
+          <li><strong>Mapping Platform:</strong> Proficient in Ubermap</li>
+          <li><strong>Coding Skills:</strong> Python, ArcPy, HTML, CSS</li>
+          <li><strong>Testing Tools:</strong> Kobiton, Studio, Manual Testing Tool</li>
+          <li><strong>Other Tools:</strong>
+            TT Mydrive, Places, Pager Duty, EngWiki, Investigation Tool, Flipr, Phabricator, Epudo, Query Builder, Geofencer, App Annie, Mapsdot, Map Deploy, Hotspot Verifier, Epudo, Routing Deployment
+          </li>
+        </ol>
+
+    <div class="experience">
+        <strong>GIS Technician | Kerala State Land Use Board, Government of Kerala</strong><br>
+        Dec 2021 - Mar 2022<br>
+        <ul>
+            <li>Proficiently utilized ArcMap and QGIS to digitize and analyze complex geographical data, ensuring meticulous accuracy and precision in mapping.</li>
+            <li>Conducted thorough field visits to diligently verify and rectify land use and land cover data, significantly enhancing the data's accuracy, completeness, and reliability.</li>
+            <li>Produced comprehensive maps and reports utilizing advanced GIS expertise, delivering valuable insights to stakeholders and facilitating well-informed decision-making processes.</li>
+            <li>Demonstrated adeptness in employing advanced GIS tools and techniques for data analysis, pattern identification, and visually impactful data visualization, enabling data-driven solutions.</li>
+            <li>Showcased prowess in data analysis, problem-solving, and project management, skillfully overseeing and executing GIS projects within the government sector.</li>
+            <li>Harnessed extensive expertise in land use and land cover data management to deliver high-quality GIS support, catering specifically to the unique requirements of government agencies.</li>
+            <li>Collaborated seamlessly with cross-functional teams comprising planners, analysts, and policymakers, providing accurate and timely GIS information to support effective land use planning and management.</li>
+            <li>Upheld rigorous adherence to data quality standards and best practices, ensuring the utmost reliability and integrity of GIS outputs.</li>
+            <li>Demonstrated keen attention to detail, exactly guaranteeing the accuracy and completeness of GIS data, resulting in highly precise and reliable mapping deliverables.</li>
+            <li>Spearheaded the implementation of innovative solutions to enhance efficiency and effectiveness, thereby contributing to continuous improvements in GIS processes and workflows.</li>
+        </ul>
+    </div>
+        <div class="section">
+            <h2>EDUCATION</h2>
+            <div class="education">
+                <strong>Master of Science in Applied Geology | Aligarh Muslim University, Aligarh</strong><br>
+                Completed in 2021<br>
+                <strong>Short Term Course in Remote Sensing and GIS | Mahatma Gandhi University, Kerala</strong><br>
+                Completed in 2019<br>
+            </div>
+        </div>
+
+        <div class="section">
+    <h2>KEY COMPETENCIES</h2>
+    <div class="competencies" style="text-align: justify;">
+        <table class="skills-table" style="width: 100%;">
+            <tr>
+                <td style="width: 33.33%;">
+                    <ul class="skills-list">
+                        <li>ArcGIS, Q-GIS, ERDAS Imagine</li>
+                        <li>PYTHON, ArcPy, HTML, CSS</li>
+                        <li>JIRA, MSR, SLACK</li>
+                    </ul>
+                </td>
+                <td style="width: 33.33%;">
+                    <ul class="skills-list">
+                        <li>Uber Map, TomTom</li>
+                        <li>Open Streets Maps(OSM)</li>
+                        <li>Mapillay, Google Earth Pro</li>
+                    </ul>
+                </td>
+                <td style="width: 33.33%;">
+                    <ul class="skills-list">
+                        <li>Data Analysis</li>
+                        <li>Spatial Data Analysis</li>
+                        <li>Database Management</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+	<div class="section">
+   	    <h2>COURSES PARTICIPATED</h2>
+    	    <div class="courses">
+        	<ul class="courses-list">
+            	    <li><strong>ArcPy for Python Developers using ArcGIS Pro</strong> - Udemy</li>
+            	    <li><strong>100 Days of Code: The Complete Python Pro Bootcamp for 2022</strong> - Udemy</li>
+            	    <li><strong>Python Data Structures</strong> - <strong>University of Michigan</strong> (Online Course)</li>
+            	    <li><strong>Programming for Everybody</strong> (Getting Started with <strong>Python</strong>) - <strong>University of Michigan</strong> (Online Course)</li>
+            	    <li><strong>ISRO</strong> Sponsored <strong>IIRS</strong> 40th Outreach Course 2018 - <strong>Satellite Remote Sensing in Agrometeorological Applications</strong></li>
+            	    <li><strong>ISRO</strong> Sponsored <strong>IIRS</strong> 41th Outreach Course 2019 - <strong>Hyperspectral Remote Sensing and its Applications</strong></li>
+        	</ul>
+            </div>
+         </div>
+    </div>
 </body>
-
 </html>
